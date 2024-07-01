@@ -1,0 +1,33 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font-family:sans-serif;
+  width:100vw;
+    height:100vh;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+/* write the properties of root */
+#root{
+  /* min-height: 100vh;
+  width: 100vw; */
+  display: flex;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+  animation: fadein 1s linear;
+}
+@keyframes fadein {
+  0%{
+    opacity:0
+  }
+  100%{
+    opacity: 1;
+  }
+} 
+
+
+
+
